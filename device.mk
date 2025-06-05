@@ -73,3 +73,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from nokia sdm660-common
 $(call inherit-product, device/nokia/sdm660-common/common.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
